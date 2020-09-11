@@ -6,6 +6,7 @@ from request.request_util import RequestUtil
 from util.my_logger import log
 
 
+# 爬取东方财富
 class Eastmoney:
     def __init__(self):
         self.results = {}
